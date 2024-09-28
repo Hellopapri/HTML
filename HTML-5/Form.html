@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Html Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <form>
+        <div>
+        <label for="fullName"> FullName: </label>
+         <input type="text" name="fullname" id="fullname" required>
+          </div><br/>
+          <div>
+            <label for="email">Email: </label>
+             <input type="text" name="email" id="email">
+              </div>
+ <div> <br/>
+  <label for="Password"> Password: </label>
+   <input type="text" name="Password" id="Password">
+    </div> <br/>
+  <div>
+    <label for="Date Of Birth"> Date Of Brith : </label>
+     <input type="date" name="dob" id="dob">
+      </div> <br/>
+      <div>
+        <label for="Chooseyour photo"> Choose Your Photo : </label>
+         <input type="File" name="Photo" id="Photo">
+          </div> <br/>
+<div>
+ <label for="gender"> Gender : </label>
+ <input type="radio" name="gender" id="gender" value="Male"> Male
+<input type="radio" name="gender"  id="gender value=female"> Female
+ </div> <br/>
+ <div>
+    <label for="Religion"> Religion: </label>
+    <input type="checkbox" name="c1" id="gender" value="Muslim"> Muslim
+   <input type="checkbox" name="c1"  id="gender value=Hindu"> Hindu
+    </div> <br/>
+
+<div>
+    <label for="Department"> Department: </label>
+    <select Name="Department">
+        <option value="CSE" selected>CSE</option>
+        <option value="EEE">EEE</option>
+        <option value="LLB">LLB</option>
+    </select>
+</div>
+<div>
+    <label for="message"> Message: </label> <br/>
+    <textarea cols="40" rows="10"></textarea>
+</div>
+<div>
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+</div>
+</body>
+</html>
